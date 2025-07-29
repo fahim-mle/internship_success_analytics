@@ -1,0 +1,16 @@
+{
+  "original_file": "../data/cleaned_data/jcu_student_cleaned.csv",
+  "cleaned_file": "../data/cleaned_data/jcu_student_realistic_cleaned.csv",
+  "cleaning_date": "2025-07-28T12:31:58.003240",
+  "static_columns_preserved": [
+    "course",
+    "academic_status",
+    "failed_subjects"
+  ],
+  "modifications_applied": [
+    "Assessment scores adjusted based on academic_status",
+    "Attendance patterns aligned with academic performance",
+    "Realistic variance maintained while preserving some original patterns"
+  ],
+  "validation_passed": true
+}

@@ -1,0 +1,28 @@
+{
+  "input_file": "data/cleaned_data/updated_student_data_cleaned.csv",
+  "output_file": "../data/cleaned_data/student_data_v1.csv",
+  "cleaning_date": "2025-07-29T15:49:07.615810",
+  "focus": "Comments and Identified Issues only",
+  "distribution_applied": {
+    "identified_issues": {
+      "Academic_Caution": "100% coverage",
+      "Conditional": "100% coverage",
+      "Excluded": "100% coverage",
+      "Satisfactory": "27% coverage"
+    },
+    "comments": {
+      "Academic_Caution": "100% (matched to issues)",
+      "Conditional": "100% (matched to issues)",
+      "Excluded": "0% (no comments)",
+      "Satisfactory": "Only students with issues get comments"
+    }
+  },
+  "json_mapping_source": "project_info/comments_issues_mapping.json",
+  "static_columns_preserved": [
+    "course",
+    "academic_status",
+    "failed_subjects"
+  ],
+  "validation_passed": true,
+  "random_seed": 42
+}

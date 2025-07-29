@@ -1,0 +1,38 @@
+{
+  "input_file": "data/cleaned_data/student_data_v1.csv",
+  "output_file": "../data/cleaned_data/student_data_v2.csv",
+  "cleaning_date": "2025-07-29T15:49:36.897494",
+  "focus": "Lecturer Referral columns (1, 2, 3) based on identified_issues",
+  "lecturer_referral_rules": {
+    "students_with_issues": "All get referrals based on mapping",
+    "students_without_issues": "Less than 2% get random referrals",
+    "independence": "Each column chooses referrals independently",
+    "mapping_source": "project_info/lecturer_referral_identified_issues_relation.json"
+  },
+  "mapping_applied": {
+    "Mental health": [
+      "Concern for welfare",
+      "Attendance",
+      "Non submission"
+    ],
+    "Death in family": [
+      "Concern for welfare",
+      "Non submission"
+    ],
+    "Late enrolment": [
+      "Non submission",
+      "Attendance"
+    ],
+    "Poor time management": [
+      "Non submission",
+      "Attendance"
+    ]
+  },
+  "static_columns_preserved": [
+    "course",
+    "academic_status",
+    "failed_subjects"
+  ],
+  "validation_passed": true,
+  "random_seed": 42
+}
