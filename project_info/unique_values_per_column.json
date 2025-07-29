@@ -1,0 +1,296 @@
+{
+  "course": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 15,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "bachelor of business",
+      "bachelor of commerce",
+      "bachelor of information technology",
+      "bachelor of tourism, hospitality and events",
+      "master of business administration",
+      "master of data science (professional)",
+      "master of education - master of business administration",
+      "master of engineering management",
+      "master of information technology",
+      "master of information technology - master of business administration",
+      "master of international tourism and hospitality management",
+      "master of international tourism and hospitality management - master of business administration",
+      "master of professional accounting",
+      "master of professional accounting - master of business administration",
+      "postgraduate qualifying program - business"
+    ]
+  },
+  "student_cohort": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 8,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "Continuing",
+      "Excluded",
+      "First year",
+      "LOA",
+      "New",
+      "Return to Study",
+      "SRI to JCUB",
+      "Transferred"
+    ]
+  },
+  "academic_status": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 4,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "Academic Caution",
+      "Conditional",
+      "Excluded",
+      "Satisfactory"
+    ]
+  },
+  "failed_subjects": {
+    "data_type": "float64",
+    "total_records": 698,
+    "unique_count": 8,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      0.0,
+      1.0,
+      2.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0
+    ]
+  },
+  "study_skills(attended)": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 6,
+    "missing_count": 527,
+    "missing_percentage": 75.5,
+    "unique_values": [
+      "4R Essential Skills",
+      "Essential Skills",
+      "Essential Skills and Reading",
+      "Referencing",
+      "Studiocity",
+      "Writing"
+    ]
+  },
+  "referral": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 5,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "Enrollment",
+      "Lecturer",
+      "Other",
+      "Student Advocate",
+      "Student Counsellor"
+    ]
+  },
+  "pp_meeting": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 4,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "Attended",
+      "Booked",
+      "Not relevant",
+      "Rescheduled"
+    ]
+  },
+  "self_assessment": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 2,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "No",
+      "Yes"
+    ]
+  },
+  "readiness_assessment_results": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 1,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "L/G:9/10 N:5/10 R:8/10"
+    ]
+  },
+  "follow_up": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 2,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "No",
+      "Yes"
+    ]
+  },
+  "follow_up_type": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 4,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "Email",
+      "F2F",
+      "No Reply",
+      "Phone"
+    ]
+  },
+  "subject_1": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 12,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "BU1002",
+      "BU1112",
+      "CO5117",
+      "CP1401",
+      "CP5046",
+      "ED5097",
+      "EG5200",
+      "LB5113",
+      "LB5202",
+      "MA5831",
+      "TO1008",
+      "TO5101"
+    ]
+  },
+  "learn_jcu_issues_2": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 2,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "Access",
+      "No Access"
+    ]
+  },
+  "lecturer_referral_2": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 3,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "Attendance",
+      "Concern for Welfare",
+      "Non Submission"
+    ]
+  },
+  "subject_3": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 13,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "BU1007",
+      "BX2014",
+      "CO5109",
+      "CP1404",
+      "CP5503",
+      "EG5310",
+      "LB5113",
+      "LB5202",
+      "LB5205",
+      "LB5212",
+      "MA5851",
+      "TO3052",
+      "TO5104"
+    ]
+  },
+  "learn_jcu_issues_3": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 2,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "Access",
+      "No Access"
+    ]
+  },
+  "lecturer_referral_3": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 3,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "Attendance",
+      "Concern for Welfare",
+      "Non Submission"
+    ]
+  },
+  "comments": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 13,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "Week 2. Student did not attend orientation. Contacted via email with essential course info and Moodle access guide. No response yet",
+      "Week 3 late enrolment. Student finding it difficult to catch up on Weeks 1 and 2. Week 4. Student contacted on lecturer referral. Student has been sick on arrival",
+      "Week 3. First contact made. Student reported internet access issues at home. IT support referral provided.",
+      "Week 3. Student enrolled late. Missing foundational content from Weeks 1\u20132. Provided links to recorded lectures and encouraged to attend tutorials for extra support.",
+      "Week 4. Student submitted first assessment late. Offered academic skills support and advised on extension procedures.",
+      "Week 5. Low engagement in tutorials. Follow-up email sent with participation expectations and links to recorded sessions.",
+      "Week 5. Student absent from multiple classes. Email sent to check in; student replied citing family issues. Offered flexibility and reminded of support services.",
+      "Week 6. Student reported working long hours. Referred to careers support for managing work\u2013study balance.",
+      "Week 6. Student submitted assessment late. Extension not requested in advance. Advised to submit future requests on time and referred to Academic Skills team.",
+      "Week 7. Missed second assessment. Student contacted and reported feeling overwhelmed. Referred to Academic Support and encouraged to speak with Counsellor.",
+      "Week 7. Student disclosed high stress levels and lack of sleep. Referred to Wellbeing team and reminded of available mental health support.",
+      "Week 8. Student re-engaged with tutorials. Submitted outstanding work with approved extension.",
+      "booked to see a doctor. Week 5. Student contacted for low attendance. Reminded of the importance of attending classes. Week 7. Student contacted for missing submission due date. Referred to Counsellor for check in for wellbeing as the student advised mental health challenges."
+    ]
+  },
+  "identified_issues": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 5,
+    "missing_count": 437,
+    "missing_percentage": 62.61,
+    "unique_values": [
+      "Death in family",
+      "Late Enrollment",
+      "Mental health",
+      "Poor time management",
+      "Sickness"
+    ]
+  },
+  "course_group": {
+    "data_type": "object",
+    "total_records": 698,
+    "unique_count": 2,
+    "missing_count": 0,
+    "missing_percentage": 0.0,
+    "unique_values": [
+      "IT",
+      "Non-IT"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "description": "Mapping of comments to identified issues for Academic Caution and Conditional students",
+  "usage_rules": {
+    "target_students": ["Academic Caution", "Conditional"],
+    "excluded_students": ["Excluded", "Satisfactory without issues"],
+    "distribution_principle": "Each comment must correspond to appropriate identified issue"
+  },
+  "comment_issue_mapping": {
+    "Mental health": [
+      {
+        "comment": "Week 7. Student disclosed high stress levels and lack of sleep. Referred to Wellbeing team and reminded of available mental health support.",
+        "intervention_type": "Wellbeing referral",
+        "severity": "moderate",
+        "timeline": "Week 7"
+      },
+      {
+        "comment": "Week 7. Missed second assessment. Student contacted and reported feeling overwhelmed. Referred to Academic Support and encouraged to speak with Counsellor.",
+        "intervention_type": "Academic Support + Counsellor referral",
+        "severity": "moderate-high",
+        "timeline": "Week 7"
+      },
+      {
+        "comment": "booked to see a doctor. Week 5. Student contacted for low attendance. Reminded of the importance of attending classes. Week 7. Student contacted for missing submission due date. Referred to Counsellor for check in for wellbeing as the student advised mental health challenges.",
+        "intervention_type": "Medical + Counsellor referral",
+        "severity": "high",
+        "timeline": "Week 5-7"
+      }
+    ],
+    "Poor time management": [
+      {
+        "comment": "Week 6. Student submitted assessment late. Extension not requested in advance. Advised to submit future requests on time and referred to Academic Skills team.",
+        "intervention_type": "Academic Skills referral",
+        "severity": "moderate",
+        "timeline": "Week 6"
+      },
+      {
+        "comment": "Week 4. Student submitted first assessment late. Offered academic skills support and advised on extension procedures.",
+        "intervention_type": "Academic Skills support",
+        "severity": "low-moderate",
+        "timeline": "Week 4"
+      },
+      {
+        "comment": "Week 5. Low engagement in tutorials. Follow-up email sent with participation expectations and links to recorded sessions.",
+        "intervention_type": "Engagement support",
+        "severity": "moderate",
+        "timeline": "Week 5"
+      },
+      {
+        "comment": "Week 6. Student reported working long hours. Referred to careers support for managing work–study balance.",
+        "intervention_type": "Careers support",
+        "severity": "moderate",
+        "timeline": "Week 6"
+      }
+    ],
+    "Late Enrollment": [
+      {
+        "comment": "Week 3. Student enrolled late. Missing foundational content from Weeks 1–2. Provided links to recorded lectures and encouraged to attend tutorials for extra support.",
+        "intervention_type": "Catch-up support",
+        "severity": "moderate",
+        "timeline": "Week 3"
+      },
+      {
+        "comment": "Week 3 late enrolment. Student finding it difficult to catch up on Weeks 1 and 2. Week 4. Student contacted on lecturer referral. Student has been sick on arrival",
+        "intervention_type": "Catch-up + health support",
+        "severity": "moderate-high",
+        "timeline": "Week 3-4"
+      },
+      {
+        "comment": "Week 2. Student did not attend orientation. Contacted via email with essential course info and Moodle access guide. No response yet",
+        "intervention_type": "Orientation catch-up",
+        "severity": "low-moderate",
+        "timeline": "Week 2"
+      }
+    ],
+    "Sickness": [
+      {
+        "comment": "Week 8. Student re-engaged with tutorials. Submitted outstanding work with approved extension.",
+        "intervention_type": "Extension + re-engagement",
+        "severity": "low",
+        "timeline": "Week 8"
+      },
+      {
+        "comment": "Week 5. Student absent from multiple classes. Email sent to check in; student replied citing family issues. Offered flexibility and reminded of support services.",
+        "intervention_type": "Flexibility + support services",
+        "severity": "moderate",
+        "timeline": "Week 5"
+      }
+    ],
+    "Death in family": [
+      {
+        "comment": "Week 5. Student absent from multiple classes. Email sent to check in; student replied citing family issues. Offered flexibility and reminded of support services.",
+        "intervention_type": "Bereavement support",
+        "severity": "high",
+        "timeline": "Week 5"
+      },
+      {
+        "comment": "Week 3. First contact made. Student reported internet access issues at home. IT support referral provided.",
+        "intervention_type": "Technical + bereavement support",
+        "severity": "moderate",
+        "timeline": "Week 3"
+      }
+    ]
+  },
+  "distribution_guidelines": {
+    "academic_caution": {
+      "comment_requirement": "ALL students must have comments",
+      "preferred_issues": ["Poor time management", "Mental health", "Late Enrollment"],
+      "intervention_intensity": "moderate",
+      "typical_timeline": "Week 4-7"
+    },
+    "conditional": {
+      "comment_requirement": "ALL students must have comments",
+      "preferred_issues": ["Mental health", "Poor time management", "Sickness", "Death in family"],
+      "intervention_intensity": "moderate-high",
+      "typical_timeline": "Week 5-8"
+    }
+  },
+  "implementation_notes": {
+    "selection_strategy": "Randomly assign comments from appropriate issue category",
+    "consistency_check": "Ensure comment content matches identified issue type",
+    "timeline_realism": "Comments should reflect realistic academic calendar progression",
+    "intervention_escalation": "Higher severity comments for students with multiple risk factors"
+  }
+}

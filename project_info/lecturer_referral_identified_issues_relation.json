@@ -1,0 +1,19 @@
+{
+  "Mental health": [
+    "Concern for welfare",
+    "Attendance",
+    "Non submission"
+  ],
+  "Death in family": [
+    "Concern for welfare",
+    "Non submission"
+  ],
+  "Late enrolment": [
+    "Non submission",
+    "Attendance"
+  ],
+  "Poor time management": [
+    "Non submission",
+    "Attendance"
+  ]
+}

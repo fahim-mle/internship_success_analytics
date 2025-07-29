@@ -1,0 +1,17 @@
+{
+  "bachelor of business": ["BU1002", "BU1003", "BU1007"],
+  "bachelor of commerce": ["BU1112", "BX2011", "BX2014"],
+  "bachelor of information technology": ["CP1401", "CP1402", "CP1404"],
+  "bachelor of tourism, hospitality and events": ["TO1008", "TO2117", "TO3052"],
+  "master of business administration": ["LB5113", "LB5202", "LB5205"],
+  "master of data science (professional)": ["MA5831", "MA5840", "MA5851"],
+  "master of education - master of business administration": ["ED5097", "ED5880", "LB5113"],
+  "master of engineering management": ["EG5200", "EG5220", "EG5310"],
+  "master of information technology": ["CP5046", "CP5047", "CP5503"],
+  "master of information technology - master of business administration": ["CP5046", "LB5113", "LB5202"],
+  "master of international tourism and hospitality management": ["TO5101", "TO5103", "TO5104"],
+  "master of international tourism and hospitality management - master of business administration": ["TO5101", "LB5113", "LB5202"],
+  "master of professional accounting": ["CO5117", "CO5103", "CO5109"],
+  "master of professional accounting - master of business administration": ["CO5117", "CO5103", "LB5113"],
+  "postgraduate qualifying program - business": ["LB5202", "LB5203", "LB5212"]
+}

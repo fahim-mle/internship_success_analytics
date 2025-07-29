@@ -1,0 +1,18 @@
+{
+  "description": "Unique values for lecturer referral columns from student_data_v1.csv",
+  "source_dataset": "data/cleaned_data/student_data_v1.csv",
+  "extraction_date": "2025-07-29T04:06:16.599232",
+  "columns_analyzed": ["lecturer_referral_1", "lecturer_referral_2", "lecturer_referral_3"],
+
+  "lecturer_referral_uv": ["Attendance", "Concern for Welfare", "Non Submission"],
+  "referral_to_identified_issues": {
+    "Attendance": ["Late Enrollment", "Poor time management"],
+    "Concern for Welfare": ["Mental health", "Poor time management"],
+    "Non Submission": ["Late Enrollment", "Poor time management"]
+  },
+  "statistics": {
+    "total_unique_values_combined": 3,
+    "total_columns_analyzed": 3,
+    "dataset_total_rows": 698
+  }
+}
