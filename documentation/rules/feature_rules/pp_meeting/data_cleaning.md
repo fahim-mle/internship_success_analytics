@@ -6,9 +6,9 @@ is sourced from `project_info/referral_pp_meeting_relationship.json`.
 
 ## Implementation Rules
 
-- **No Meeting Required:** If `Identified Issues` is 'Late Enrolment' or
-  'Sickness', the `Referral` is not for a formal meeting. In these cases, set
-  `PP Meeting` to 'Not Relevant'.
+- **No Meeting Required:** If `Identified Issues` is empty/no values, 'Late
+  Enrolment' or 'Sickness', the `Referral` is not for a formal meeting. In these
+  cases, set `PP Meeting` to 'Not Relevant'.
 - **Meeting Required:** If `Identified Issues` is 'Mental Health', 'death in
   family', or 'Poor Time Management', a meeting is expected.
 - **Set Meeting Status:** For these cases, 50% will randomly assign the
@@ -16,6 +16,7 @@ is sourced from `project_info/referral_pp_meeting_relationship.json`.
   will be depend on `Academic Status`, specially who are at `academic caution` +
   `identified issue` as `poor time management` will mostly be `Rescheduled` to
   reflect realistic case.
+  ***
 
 ### Summary Table
 
