@@ -22,6 +22,6 @@ Thumbs.db
 # Log files
 *.log
 
-# Handy tools
+# Converter directories
 csv_to_xlsx_converter/
 excel_to_csv/
