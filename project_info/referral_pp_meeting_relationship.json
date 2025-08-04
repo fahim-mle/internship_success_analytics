@@ -1,0 +1,25 @@
+{
+  "description": "Defines the relationship between identified issues, referrals, and pp_meeting outcomes.",
+  "rules": {
+    "Late Enrolment": {
+      "referral": "Enrolment",
+      "pp_meeting": "Not Relevant"
+    },
+    "Mental Health": {
+      "referral": ["Student Counsellor", "Student Advocate"],
+      "pp_meeting": ["Attended", "Booked", "Rescheduled"]
+    },
+    "Death in family": {
+      "referral": "Student Counsellor",
+      "pp_meeting": ["Attended", "Booked", "Rescheduled"]
+    },
+    "Poor Time Management": {
+      "referral": ["Student Advocate", "Student Counsellor"],
+      "pp_meeting": ["Attended", "Booked", "Rescheduled"]
+    },
+    "Sickness": {
+      "referral": "Other",
+      "pp_meeting": "Not Relevant"
+    }
+  }
+}

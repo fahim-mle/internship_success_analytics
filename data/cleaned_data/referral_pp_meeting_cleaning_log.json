@@ -1,0 +1,63 @@
+{
+  "input_file": "data/cleaned_data/student_data_v2.csv",
+  "output_file": "../data/cleaned_data/student_data_v3.csv",
+  "cleaning_date": "2025-07-30T16:19:17.068170",
+  "focus": "Referral and PP Meeting columns based on identified_issues",
+  "referral_pp_rules": {
+    "students_with_issues": "All get referrals and pp_meetings based on mapping",
+    "students_without_issues": "Both columns remain null/NaN",
+    "special_logic": "Academic Caution + Poor Time Management \u2192 70% Rescheduled",
+    "random_assignment": "50% distribution for meeting statuses where applicable",
+    "mapping_source": "project_info/referral_pp_meeting_relationship.json"
+  },
+  "mapping_applied": {
+    "description": "Defines the relationship between identified issues, referrals, and pp_meeting outcomes.",
+    "rules": {
+      "Late Enrolment": {
+        "referral": "Enrolment",
+        "pp_meeting": "Not Relevant"
+      },
+      "Mental Health": {
+        "referral": [
+          "Student Counsellor",
+          "Student Advocate"
+        ],
+        "pp_meeting": [
+          "Attended",
+          "Booked",
+          "Rescheduled"
+        ]
+      },
+      "Death in family": {
+        "referral": "Student Counsellor",
+        "pp_meeting": [
+          "Attended",
+          "Booked",
+          "Rescheduled"
+        ]
+      },
+      "Poor Time Management": {
+        "referral": [
+          "Student Advocate",
+          "Student Counsellor"
+        ],
+        "pp_meeting": [
+          "Attended",
+          "Booked",
+          "Rescheduled"
+        ]
+      },
+      "Sickness": {
+        "referral": "Other",
+        "pp_meeting": "Not Relevant"
+      }
+    }
+  },
+  "static_columns_preserved": [
+    "course",
+    "academic_status",
+    "failed_subjects"
+  ],
+  "validation_passed": true,
+  "random_seed": 42
+}

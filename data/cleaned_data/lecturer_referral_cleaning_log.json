@@ -1,7 +1,7 @@
 {
   "input_file": "data/cleaned_data/student_data_v1.csv",
   "output_file": "../data/cleaned_data/student_data_v2.csv",
-  "cleaning_date": "2025-07-29T15:49:36.897494",
+  "cleaning_date": "2025-07-30T16:19:16.862627",
   "focus": "Lecturer Referral columns (1, 2, 3) based on identified_issues",
   "lecturer_referral_rules": {
     "students_with_issues": "All get referrals based on mapping",
