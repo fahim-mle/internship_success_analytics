@@ -3,12 +3,12 @@
 ## Project Context
 
 You are working as a data science work buddy on an internship success analytics
-project. Your role is to help analyze student data to predict academic success
-and identify at-risk students.
+project. Your role is to help with feature engineering and building prediction
+models to identify students at high and medium risk.
 
 ## Data Science Workflow
 
-- **Primary Dataset**: `data/initial_data/updated_student_data.csv`
+- **Primary Dataset**: `data/refined_data_for_model/Student_At_Risk_Student_Data.csv`
 - **Analysis Environment**: Jupyter notebooks for rapid iteration
 - **Implementation**: Python scripts for production code
 
@@ -21,10 +21,6 @@ and identify at-risk students.
   data_generation.md, and feature_engineering.md
 - **Variables Include**: academic_status, attendance_1-3, assessments, courses,
   student demographics, etc.
-
-#### Data Cleaning Guide
-
-- **Location**: `documentation/data_cleaning_guideline.md`
 
 ### Project Information
 
@@ -43,12 +39,10 @@ and identify at-risk students.
 
 ## Key Capabilities Expected
 
-- Data cleaning and preprocessing
-- Exploratory data analysis (EDA)
 - Feature engineering and selection
-- Machine learning model development
-- Synthetic data generation
+- Machine learning model development for risk prediction
 - Model evaluation and optimization
+- Risk assessment analysis
 
 ## Workflow Preferences
 
@@ -65,22 +59,33 @@ and identify at-risk students.
 - **Visualization**: matplotlib, seaborn (as needed)
 - **Environment**: Virtual environment with specified dependencies
 
-## Data Cleaning Instructions
+## Feature Engineering Instructions
 
-1. **Primary Notebook**: All data manipulation and cleaning must be performed in
-   `notebook/data_cleaning.ipynb`
-2. **Workflow**: Use the notebook for iterative data cleaning processes
-   following established rules from `documentation/data_cleaning_guideline.md`
+**Primary Notebook**: `notebook/feature_engineering.ipynb`
 
-## Data Exploration Instructions
+### Phase 1
 
-**Notebook**: `notebook/data_exploration.ipynb`
+1. Work with refined dataset from `data/refined_data_for_model/`
+2. The outcome variable is `risk` from the `/data/refined_data_for_model/Student_At_Risk_Student_Data.csv`
+3. Reorganize the csv, put `risk` column at the very end and put `country` column at 2nd position after `student_id`.
+4. Make all the text data from every column small case.
+5. We only work on `Medium` and `High` risk students from outcome variable `risk`. So only extract student with `medium` and `high` risk.
+6. Store the data as csv to `/data/refined_data_for_model` and name it `engineered_student_data.csv`
+7. We will then explore the data, find it's pattern and synthetically generate a sizable number or rows for training a predictive model.
 
-### Categorical Variables Analysis
+### Phase 2
 
-1. Extract unique values of each categorical variable
+1. We will start working on `/data/refined_data_for_model/engineered_student_data.csv`
+2. First we will find direct correlation with each variable except outcome variable `risk`.
+3. Based on the correlation of each variable I will create a json file on how to set numeric value to those categorical or textual data.
+4. Just based on the previous study we will directly correlate each variable with the outcome variable and give them numerical weight.
+5. Also we will do a quick sentiment analysis and use NLP to categorize the importance of each comments and also based on the outcome variable we will replace comments with sentiment analysis we will also give those comments some numeric weight.
 
-### Numeric Variables Analysis
+## Prediction Model Instructions
 
-- Skip `student_id` variable
-- Calculate: mean, median, standard deviation, and skewness (optional)
+**Primary Notebook**: `notebook/prediction_model.ipynb`
+
+1. Build models to predict students at high and medium risk
+2. Focus on binary classification or multi-class risk categorization
+3. Evaluate model performance with appropriate metrics
+4. Optimize models for identifying at-risk students

@@ -1,0 +1,32 @@
+============================================================
+DATA EXPLORATION FOR SYNTHETIC DATA GENERATION
+============================================================
+
+1. DATASET OVERVIEW:
+   Shape: (282, 41)
+   Features: 40 (excluding target)
+   Target: 'risk' column
+
+2. TARGET DISTRIBUTION:
+   medium: 187 students (66.3%)
+   high: 95 students (33.7%)
+
+3. FEATURE TYPES:
+   Numeric features: 17 columns
+   Text features: 24 columns
+
+4. MISSING DATA ANALYSIS:
+   No missing data found
+
+5. KEY CATEGORICAL FEATURES:
+   country: 32 unique values
+   course: 14 unique values
+   academic_status: 4 unique values
+     Values: ['conditional', 'satisfactory', 'academic caution', 'excluded']
+   student_cohort: 8 unique values
+     Values: ['continuing', 'new', 'return to study', 'loa', 'first year', 'transferred', 'excluded', 'sri to jcub']
+
+6. NUMERIC FEATURES SUMMARY:
+   Assessment scores: 12 columns
+   Attendance features: 3 columns
+   Other numeric: 1 columns
