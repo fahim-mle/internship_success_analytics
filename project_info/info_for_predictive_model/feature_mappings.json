@@ -1,0 +1,1356 @@
+{
+  "metadata": {
+    "created_date": "2025-08-05T10:16:49.068929",
+    "dataset_shape": [
+      282,
+      41
+    ],
+    "risk_levels": [
+      "high",
+      "medium"
+    ],
+    "risk_distribution": {
+      "medium": 187,
+      "high": 95
+    }
+  },
+  "numeric_features": {
+    "correlations": {
+      "failed_subjects": {
+        "correlation": -0.6703832776895738,
+        "p_value": 3.675657808387108e-38,
+        "abs_correlation": 0.6703832776895738
+      },
+      "subject_1_assess_1": {
+        "correlation": 0.43094187188047944,
+        "p_value": 3.5160223434137996e-14,
+        "abs_correlation": 0.43094187188047944
+      },
+      "subject_1_assess_2": {
+        "correlation": 0.24577147658909906,
+        "p_value": 3.00540007362164e-05,
+        "abs_correlation": 0.24577147658909906
+      },
+      "subject_1_assess_3": {
+        "correlation": 0.2960931708155975,
+        "p_value": 4.101754564795843e-07,
+        "abs_correlation": 0.2960931708155975
+      },
+      "subject_1_assess_4": {
+        "correlation": 0.35213080948838266,
+        "p_value": 1.1798845614984903e-09,
+        "abs_correlation": 0.35213080948838266
+      },
+      "attendance_1": {
+        "correlation": 0.39882509213181344,
+        "p_value": 3.4386890415504833e-12,
+        "abs_correlation": 0.39882509213181344
+      },
+      "subject_2_assess_1": {
+        "correlation": 0.34625517514817583,
+        "p_value": 2.306289126900358e-09,
+        "abs_correlation": 0.34625517514817583
+      },
+      "subject_2_assess_2": {
+        "correlation": 0.38620312653752215,
+        "p_value": 1.8280628402697447e-11,
+        "abs_correlation": 0.38620312653752215
+      },
+      "subject_2_assess_3": {
+        "correlation": 0.339822979597635,
+        "p_value": 4.728524071850892e-09,
+        "abs_correlation": 0.339822979597635
+      },
+      "subject_2_assess_4": {
+        "correlation": 0.4104016172919436,
+        "p_value": 6.97167134311607e-13,
+        "abs_correlation": 0.4104016172919436
+      },
+      "attendance_2": {
+        "correlation": 0.4282196482854305,
+        "p_value": 5.285553326048069e-14,
+        "abs_correlation": 0.4282196482854305
+      },
+      "subject_3_assess_1": {
+        "correlation": 0.3361216030648468,
+        "p_value": 7.095091205012621e-09,
+        "abs_correlation": 0.3361216030648468
+      },
+      "subject_3_assess_2": {
+        "correlation": 0.3033552871521312,
+        "p_value": 2.0527947592502483e-07,
+        "abs_correlation": 0.3033552871521312
+      },
+      "subject_3_assess_3": {
+        "correlation": 0.3418918876476079,
+        "p_value": 3.7601470169663685e-09,
+        "abs_correlation": 0.3418918876476079
+      },
+      "subject_3_assess_4": {
+        "correlation": 0.3437677940687192,
+        "p_value": 3.0502500639843464e-09,
+        "abs_correlation": 0.3437677940687192
+      },
+      "attendance_3": {
+        "correlation": 0.4278455958673656,
+        "p_value": 5.5884686367041347e-14,
+        "abs_correlation": 0.4278455958673656
+      }
+    },
+    "top_features": [
+      "failed_subjects",
+      "subject_1_assess_1",
+      "attendance_2",
+      "attendance_3",
+      "subject_2_assess_4",
+      "attendance_1",
+      "subject_2_assess_2",
+      "subject_1_assess_4",
+      "subject_2_assess_1",
+      "subject_3_assess_4"
+    ]
+  },
+  "categorical_features": {
+    "country": {
+      "association_strength": 0.307920097947573,
+      "category_details": {
+        "australia": {
+          "risk_score": 44.44,
+          "high_risk_pct": 33.3,
+          "medium_risk_pct": 66.7,
+          "count": 3
+        },
+        "bangladesh": {
+          "risk_score": 43.75,
+          "high_risk_pct": 31.2,
+          "medium_risk_pct": 68.8,
+          "count": 16
+        },
+        "bhutan": {
+          "risk_score": 43.55,
+          "high_risk_pct": 30.6,
+          "medium_risk_pct": 69.4,
+          "count": 62
+        },
+        "chile": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 1
+        },
+        "colombia": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 1
+        },
+        "ghana": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 1
+        },
+        "india": {
+          "risk_score": 42.18,
+          "high_risk_pct": 26.5,
+          "medium_risk_pct": 73.5,
+          "count": 49
+        },
+        "jordan": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 1
+        },
+        "kenya": {
+          "risk_score": 46.49,
+          "high_risk_pct": 39.5,
+          "medium_risk_pct": 60.5,
+          "count": 38
+        },
+        "malaysia": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 1
+        },
+        "nepal": {
+          "risk_score": 45.56,
+          "high_risk_pct": 36.7,
+          "medium_risk_pct": 63.3,
+          "count": 30
+        },
+        "papua new guinea": {
+          "risk_score": 42.59,
+          "high_risk_pct": 27.8,
+          "medium_risk_pct": 72.2,
+          "count": 18
+        },
+        "philippines": {
+          "risk_score": 44.44,
+          "high_risk_pct": 33.3,
+          "medium_risk_pct": 66.7,
+          "count": 3
+        },
+        "vietnam": {
+          "risk_score": 40.74,
+          "high_risk_pct": 22.2,
+          "medium_risk_pct": 77.8,
+          "count": 9
+        },
+        "zimbabwe": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 2
+        },
+        "nigeria": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 4
+        },
+        "china": {
+          "risk_score": 47.22,
+          "high_risk_pct": 41.7,
+          "medium_risk_pct": 58.3,
+          "count": 12
+        },
+        "uganda": {
+          "risk_score": 57.14,
+          "high_risk_pct": 71.4,
+          "medium_risk_pct": 28.6,
+          "count": 7
+        },
+        "fiji": {
+          "risk_score": 40.0,
+          "high_risk_pct": 20.0,
+          "medium_risk_pct": 80.0,
+          "count": 5
+        },
+        "hong kong": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 3
+        },
+        "indonesia": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 2
+        },
+        "laos": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 1
+        },
+        "repubic of korea (south)": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 1
+        },
+        "russia": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 1
+        },
+        "pakistan": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 1
+        },
+        "turkey": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 1
+        },
+        "mongolia": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 2
+        },
+        "myanmar": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 1
+        },
+        "rwanda": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 1
+        },
+        "sri lanka": {
+          "risk_score": 55.56,
+          "high_risk_pct": 66.7,
+          "medium_risk_pct": 33.3,
+          "count": 3
+        },
+        "taiwan": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 1
+        },
+        "thailand": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 1
+        }
+      },
+      "numeric_weights": {
+        "colombia": 32,
+        "russia": 31,
+        "myanmar": 30,
+        "rwanda": 29,
+        "thailand": 28,
+        "uganda": 27,
+        "sri lanka": 26,
+        "zimbabwe": 25,
+        "nigeria": 24,
+        "indonesia": 23,
+        "mongolia": 22,
+        "china": 21,
+        "kenya": 20,
+        "nepal": 19,
+        "australia": 18,
+        "philippines": 17,
+        "bangladesh": 16,
+        "bhutan": 15,
+        "papua new guinea": 14,
+        "india": 13,
+        "vietnam": 12,
+        "fiji": 11,
+        "chile": 10,
+        "ghana": 9,
+        "jordan": 8,
+        "malaysia": 7,
+        "hong kong": 6,
+        "laos": 5,
+        "repubic of korea (south)": 4,
+        "pakistan": 3,
+        "turkey": 2,
+        "taiwan": 1
+      },
+      "unique_count": 32
+    },
+    "course": {
+      "association_strength": 0.19992450818995125,
+      "category_details": {
+        "mba": {
+          "risk_score": 42.11,
+          "high_risk_pct": 26.3,
+          "medium_risk_pct": 73.7,
+          "count": 38
+        },
+        "med-mba": {
+          "risk_score": 44.09,
+          "high_risk_pct": 32.3,
+          "medium_risk_pct": 67.7,
+          "count": 31
+        },
+        "minftech": {
+          "risk_score": 46.83,
+          "high_risk_pct": 40.5,
+          "medium_risk_pct": 59.5,
+          "count": 42
+        },
+        "bbus": {
+          "risk_score": 43.14,
+          "high_risk_pct": 29.4,
+          "medium_risk_pct": 70.6,
+          "count": 34
+        },
+        "mengmgmt": {
+          "risk_score": 44.05,
+          "high_risk_pct": 32.1,
+          "medium_risk_pct": 67.9,
+          "count": 28
+        },
+        "binftech": {
+          "risk_score": 47.44,
+          "high_risk_pct": 42.3,
+          "medium_risk_pct": 57.7,
+          "count": 26
+        },
+        "mpa": {
+          "risk_score": 44.44,
+          "high_risk_pct": 33.3,
+          "medium_risk_pct": 66.7,
+          "count": 18
+        },
+        "mintltourismandhospmgt": {
+          "risk_score": 39.22,
+          "high_risk_pct": 17.6,
+          "medium_risk_pct": 82.4,
+          "count": 17
+        },
+        "bthe": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 12
+        },
+        "mpa-mba": {
+          "risk_score": 42.86,
+          "high_risk_pct": 28.6,
+          "medium_risk_pct": 71.4,
+          "count": 7
+        },
+        "bcom": {
+          "risk_score": 41.67,
+          "high_risk_pct": 25.0,
+          "medium_risk_pct": 75.0,
+          "count": 8
+        },
+        "mithm-mba": {
+          "risk_score": 40.74,
+          "high_risk_pct": 22.2,
+          "medium_risk_pct": 77.8,
+          "count": 9
+        },
+        "mdatasc(prof)": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 8
+        },
+        "minftech-mba": {
+          "risk_score": 58.33,
+          "high_risk_pct": 75.0,
+          "medium_risk_pct": 25.0,
+          "count": 4
+        }
+      },
+      "numeric_weights": {
+        "minftech-mba": 14,
+        "bthe": 13,
+        "mdatasc(prof)": 12,
+        "binftech": 11,
+        "minftech": 10,
+        "mpa": 9,
+        "med-mba": 8,
+        "mengmgmt": 7,
+        "bbus": 6,
+        "mpa-mba": 5,
+        "mba": 4,
+        "bcom": 3,
+        "mithm-mba": 2,
+        "mintltourismandhospmgt": 1
+      },
+      "unique_count": 14
+    },
+    "student_cohort": {
+      "association_strength": 0.5624314453074882,
+      "category_details": {
+        "continuing": {
+          "risk_score": 56.41,
+          "high_risk_pct": 69.2,
+          "medium_risk_pct": 30.8,
+          "count": 13
+        },
+        "new": {
+          "risk_score": 38.23,
+          "high_risk_pct": 14.7,
+          "medium_risk_pct": 85.3,
+          "count": 109
+        },
+        "return to study": {
+          "risk_score": 60.22,
+          "high_risk_pct": 80.6,
+          "medium_risk_pct": 19.4,
+          "count": 31
+        },
+        "loa": {
+          "risk_score": 58.73,
+          "high_risk_pct": 76.2,
+          "medium_risk_pct": 23.8,
+          "count": 21
+        },
+        "first year": {
+          "risk_score": 41.67,
+          "high_risk_pct": 25.0,
+          "medium_risk_pct": 75.0,
+          "count": 92
+        },
+        "transferred": {
+          "risk_score": 41.67,
+          "high_risk_pct": 25.0,
+          "medium_risk_pct": 75.0,
+          "count": 4
+        },
+        "excluded": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 5
+        },
+        "sri to jcub": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 7
+        }
+      },
+      "numeric_weights": {
+        "excluded": 8,
+        "return to study": 7,
+        "loa": 6,
+        "continuing": 5,
+        "first year": 4,
+        "transferred": 3,
+        "new": 2,
+        "sri to jcub": 1
+      },
+      "unique_count": 8
+    },
+    "academic_status": {
+      "association_strength": 0.8094231851910741,
+      "category_details": {
+        "conditional": {
+          "risk_score": 65.15,
+          "high_risk_pct": 95.5,
+          "medium_risk_pct": 4.5,
+          "count": 22
+        },
+        "satisfactory": {
+          "risk_score": 36.75,
+          "high_risk_pct": 10.2,
+          "medium_risk_pct": 89.8,
+          "count": 205
+        },
+        "academic caution": {
+          "risk_score": 65.33,
+          "high_risk_pct": 96.0,
+          "medium_risk_pct": 4.0,
+          "count": 50
+        },
+        "excluded": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 5
+        }
+      },
+      "numeric_weights": {
+        "excluded": 4,
+        "academic caution": 3,
+        "conditional": 2,
+        "satisfactory": 1
+      },
+      "unique_count": 4
+    },
+    "study_skills(attended)": {
+      "association_strength": 0.1404929772849618,
+      "category_details": {
+        "essential skills": {
+          "risk_score": 46.81,
+          "high_risk_pct": 40.4,
+          "medium_risk_pct": 59.6,
+          "count": 47
+        },
+        "writing": {
+          "risk_score": 43.18,
+          "high_risk_pct": 29.5,
+          "medium_risk_pct": 70.5,
+          "count": 44
+        },
+        "essential skills and reading": {
+          "risk_score": 43.59,
+          "high_risk_pct": 30.8,
+          "medium_risk_pct": 69.2,
+          "count": 39
+        },
+        "4r essential skills": {
+          "risk_score": 48.78,
+          "high_risk_pct": 46.3,
+          "medium_risk_pct": 53.7,
+          "count": 41
+        },
+        "referencing": {
+          "risk_score": 43.1,
+          "high_risk_pct": 29.3,
+          "medium_risk_pct": 70.7,
+          "count": 58
+        },
+        "studiocity": {
+          "risk_score": 42.77,
+          "high_risk_pct": 28.3,
+          "medium_risk_pct": 71.7,
+          "count": 53
+        }
+      },
+      "numeric_weights": {
+        "4r essential skills": 6,
+        "essential skills": 5,
+        "essential skills and reading": 4,
+        "writing": 3,
+        "referencing": 2,
+        "studiocity": 1
+      },
+      "unique_count": 6
+    },
+    "referral": {
+      "association_strength": 0.09876143390542012,
+      "category_details": {
+        "student counsellor": {
+          "risk_score": 46.67,
+          "high_risk_pct": 40.0,
+          "medium_risk_pct": 60.0,
+          "count": 50
+        },
+        "enrollment": {
+          "risk_score": 44.05,
+          "high_risk_pct": 32.1,
+          "medium_risk_pct": 67.9,
+          "count": 56
+        },
+        "lecturer": {
+          "risk_score": 43.68,
+          "high_risk_pct": 31.0,
+          "medium_risk_pct": 69.0,
+          "count": 58
+        },
+        "student advocate": {
+          "risk_score": 42.18,
+          "high_risk_pct": 26.5,
+          "medium_risk_pct": 73.5,
+          "count": 49
+        },
+        "other": {
+          "risk_score": 45.89,
+          "high_risk_pct": 37.7,
+          "medium_risk_pct": 62.3,
+          "count": 69
+        }
+      },
+      "numeric_weights": {
+        "student counsellor": 5,
+        "other": 4,
+        "enrollment": 3,
+        "lecturer": 2,
+        "student advocate": 1
+      },
+      "unique_count": 5
+    },
+    "pp_meeting": {
+      "association_strength": 0.12457425179548881,
+      "category_details": {
+        "booked": {
+          "risk_score": 44.02,
+          "high_risk_pct": 32.1,
+          "medium_risk_pct": 67.9,
+          "count": 78
+        },
+        "attended": {
+          "risk_score": 45.21,
+          "high_risk_pct": 35.6,
+          "medium_risk_pct": 64.4,
+          "count": 73
+        },
+        "not relevant": {
+          "risk_score": 47.03,
+          "high_risk_pct": 41.1,
+          "medium_risk_pct": 58.9,
+          "count": 73
+        },
+        "rescheduled": {
+          "risk_score": 41.38,
+          "high_risk_pct": 24.1,
+          "medium_risk_pct": 75.9,
+          "count": 58
+        }
+      },
+      "numeric_weights": {
+        "not relevant": 4,
+        "attended": 3,
+        "booked": 2,
+        "rescheduled": 1
+      },
+      "unique_count": 4
+    },
+    "self_assessment": {
+      "association_strength": 0.0,
+      "category_details": {
+        "yes": {
+          "risk_score": 38.01,
+          "high_risk_pct": 14.0,
+          "medium_risk_pct": 86.0,
+          "count": 57
+        },
+        "no": {
+          "risk_score": 38.46,
+          "high_risk_pct": 15.4,
+          "medium_risk_pct": 84.6,
+          "count": 52
+        }
+      },
+      "numeric_weights": {
+        "no": 2,
+        "yes": 1
+      },
+      "unique_count": 2
+    },
+    "readiness_assessment_results": {
+      "association_strength": NaN,
+      "category_details": {
+        "l/g:9/10 n:5/10 r:8/10": {
+          "risk_score": 44.56,
+          "high_risk_pct": 33.7,
+          "medium_risk_pct": 66.3,
+          "count": 282
+        }
+      },
+      "numeric_weights": {
+        "l/g:9/10 n:5/10 r:8/10": 1
+      },
+      "unique_count": 1
+    },
+    "follow_up": {
+      "association_strength": 0.05067769785694223,
+      "category_details": {
+        "yes": {
+          "risk_score": 43.71,
+          "high_risk_pct": 31.1,
+          "medium_risk_pct": 68.9,
+          "count": 151
+        },
+        "no": {
+          "risk_score": 45.55,
+          "high_risk_pct": 36.6,
+          "medium_risk_pct": 63.4,
+          "count": 131
+        }
+      },
+      "numeric_weights": {
+        "no": 2,
+        "yes": 1
+      },
+      "unique_count": 2
+    },
+    "follow_up_type": {
+      "association_strength": 0.08284232557800532,
+      "category_details": {
+        "no reply": {
+          "risk_score": 45.24,
+          "high_risk_pct": 35.7,
+          "medium_risk_pct": 64.3,
+          "count": 70
+        },
+        "phone": {
+          "risk_score": 46.3,
+          "high_risk_pct": 38.9,
+          "medium_risk_pct": 61.1,
+          "count": 72
+        },
+        "f2f": {
+          "risk_score": 42.98,
+          "high_risk_pct": 28.9,
+          "medium_risk_pct": 71.1,
+          "count": 76
+        },
+        "email": {
+          "risk_score": 43.75,
+          "high_risk_pct": 31.2,
+          "medium_risk_pct": 68.8,
+          "count": 64
+        }
+      },
+      "numeric_weights": {
+        "phone": 4,
+        "no reply": 3,
+        "email": 2,
+        "f2f": 1
+      },
+      "unique_count": 4
+    },
+    "subject_1": {
+      "association_strength": 0.18078425269449275,
+      "category_details": {
+        "lb5113": {
+          "risk_score": 42.11,
+          "high_risk_pct": 26.3,
+          "medium_risk_pct": 73.7,
+          "count": 38
+        },
+        "ed5097": {
+          "risk_score": 44.09,
+          "high_risk_pct": 32.3,
+          "medium_risk_pct": 67.7,
+          "count": 31
+        },
+        "cp5046": {
+          "risk_score": 47.83,
+          "high_risk_pct": 43.5,
+          "medium_risk_pct": 56.5,
+          "count": 46
+        },
+        "bu1002": {
+          "risk_score": 43.14,
+          "high_risk_pct": 29.4,
+          "medium_risk_pct": 70.6,
+          "count": 34
+        },
+        "eg5200": {
+          "risk_score": 44.05,
+          "high_risk_pct": 32.1,
+          "medium_risk_pct": 67.9,
+          "count": 28
+        },
+        "cp1401": {
+          "risk_score": 47.44,
+          "high_risk_pct": 42.3,
+          "medium_risk_pct": 57.7,
+          "count": 26
+        },
+        "co5117": {
+          "risk_score": 44.0,
+          "high_risk_pct": 32.0,
+          "medium_risk_pct": 68.0,
+          "count": 25
+        },
+        "to5101": {
+          "risk_score": 39.74,
+          "high_risk_pct": 19.2,
+          "medium_risk_pct": 80.8,
+          "count": 26
+        },
+        "to1008": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 12
+        },
+        "bu1112": {
+          "risk_score": 41.67,
+          "high_risk_pct": 25.0,
+          "medium_risk_pct": 75.0,
+          "count": 8
+        },
+        "ma5831": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 8
+        }
+      },
+      "numeric_weights": {
+        "to1008": 11,
+        "ma5831": 10,
+        "cp5046": 9,
+        "cp1401": 8,
+        "ed5097": 7,
+        "eg5200": 6,
+        "co5117": 5,
+        "bu1002": 4,
+        "lb5113": 3,
+        "bu1112": 2,
+        "to5101": 1
+      },
+      "unique_count": 11
+    },
+    "learn_jcu_issues_1": {
+      "association_strength": 0.0,
+      "category_details": {
+        "access": {
+          "risk_score": 44.5,
+          "high_risk_pct": 33.5,
+          "medium_risk_pct": 66.5,
+          "count": 209
+        },
+        "no access": {
+          "risk_score": 44.75,
+          "high_risk_pct": 34.2,
+          "medium_risk_pct": 65.8,
+          "count": 73
+        }
+      },
+      "numeric_weights": {
+        "no access": 2,
+        "access": 1
+      },
+      "unique_count": 2
+    },
+    "lecturer_referral_1": {
+      "association_strength": 0.08687277093213273,
+      "category_details": {
+        "concern for welfare": {
+          "risk_score": 44.79,
+          "high_risk_pct": 34.4,
+          "medium_risk_pct": 65.6,
+          "count": 96
+        },
+        "attendance": {
+          "risk_score": 46.15,
+          "high_risk_pct": 38.5,
+          "medium_risk_pct": 61.5,
+          "count": 91
+        },
+        "non submission": {
+          "risk_score": 42.81,
+          "high_risk_pct": 28.4,
+          "medium_risk_pct": 71.6,
+          "count": 95
+        }
+      },
+      "numeric_weights": {
+        "attendance": 3,
+        "concern for welfare": 2,
+        "non submission": 1
+      },
+      "unique_count": 3
+    },
+    "subject_2": {
+      "association_strength": 0.16596317284539394,
+      "category_details": {
+        "lb5202": {
+          "risk_score": 42.11,
+          "high_risk_pct": 26.3,
+          "medium_risk_pct": 73.7,
+          "count": 38
+        },
+        "ed5880": {
+          "risk_score": 44.09,
+          "high_risk_pct": 32.3,
+          "medium_risk_pct": 67.7,
+          "count": 31
+        },
+        "cp5047": {
+          "risk_score": 46.83,
+          "high_risk_pct": 40.5,
+          "medium_risk_pct": 59.5,
+          "count": 42
+        },
+        "bu1003": {
+          "risk_score": 43.14,
+          "high_risk_pct": 29.4,
+          "medium_risk_pct": 70.6,
+          "count": 34
+        },
+        "eg5220": {
+          "risk_score": 44.05,
+          "high_risk_pct": 32.1,
+          "medium_risk_pct": 67.9,
+          "count": 28
+        },
+        "cp1402": {
+          "risk_score": 47.44,
+          "high_risk_pct": 42.3,
+          "medium_risk_pct": 57.7,
+          "count": 26
+        },
+        "co5103": {
+          "risk_score": 44.0,
+          "high_risk_pct": 32.0,
+          "medium_risk_pct": 68.0,
+          "count": 25
+        },
+        "to5103": {
+          "risk_score": 39.22,
+          "high_risk_pct": 17.6,
+          "medium_risk_pct": 82.4,
+          "count": 17
+        },
+        "to2117": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 12
+        },
+        "bx2011": {
+          "risk_score": 41.67,
+          "high_risk_pct": 25.0,
+          "medium_risk_pct": 75.0,
+          "count": 8
+        },
+        "lb5113": {
+          "risk_score": 46.15,
+          "high_risk_pct": 38.5,
+          "medium_risk_pct": 61.5,
+          "count": 13
+        },
+        "ma5840": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 8
+        }
+      },
+      "numeric_weights": {
+        "to2117": 12,
+        "ma5840": 11,
+        "cp1402": 10,
+        "cp5047": 9,
+        "lb5113": 8,
+        "ed5880": 7,
+        "eg5220": 6,
+        "co5103": 5,
+        "bu1003": 4,
+        "lb5202": 3,
+        "bx2011": 2,
+        "to5103": 1
+      },
+      "unique_count": 12
+    },
+    "learn_jcu_issues_2": {
+      "association_strength": 0.026790054244190994,
+      "category_details": {
+        "access": {
+          "risk_score": 44.23,
+          "high_risk_pct": 32.7,
+          "medium_risk_pct": 67.3,
+          "count": 208
+        },
+        "no access": {
+          "risk_score": 45.5,
+          "high_risk_pct": 36.5,
+          "medium_risk_pct": 63.5,
+          "count": 74
+        }
+      },
+      "numeric_weights": {
+        "no access": 2,
+        "access": 1
+      },
+      "unique_count": 2
+    },
+    "lecturer_referral_2": {
+      "association_strength": 0.093484502078931,
+      "category_details": {
+        "attendance": {
+          "risk_score": 46.67,
+          "high_risk_pct": 40.0,
+          "medium_risk_pct": 60.0,
+          "count": 85
+        },
+        "concern for welfare": {
+          "risk_score": 44.23,
+          "high_risk_pct": 32.7,
+          "medium_risk_pct": 67.3,
+          "count": 104
+        },
+        "non submission": {
+          "risk_score": 43.01,
+          "high_risk_pct": 29.0,
+          "medium_risk_pct": 71.0,
+          "count": 93
+        }
+      },
+      "numeric_weights": {
+        "attendance": 3,
+        "concern for welfare": 2,
+        "non submission": 1
+      },
+      "unique_count": 3
+    },
+    "subject_3": {
+      "association_strength": 0.16613846050452058,
+      "category_details": {
+        "lb5205": {
+          "risk_score": 42.11,
+          "high_risk_pct": 26.3,
+          "medium_risk_pct": 73.7,
+          "count": 38
+        },
+        "lb5113": {
+          "risk_score": 43.86,
+          "high_risk_pct": 31.6,
+          "medium_risk_pct": 68.4,
+          "count": 38
+        },
+        "cp5503": {
+          "risk_score": 46.83,
+          "high_risk_pct": 40.5,
+          "medium_risk_pct": 59.5,
+          "count": 42
+        },
+        "bu1007": {
+          "risk_score": 43.14,
+          "high_risk_pct": 29.4,
+          "medium_risk_pct": 70.6,
+          "count": 34
+        },
+        "eg5310": {
+          "risk_score": 44.05,
+          "high_risk_pct": 32.1,
+          "medium_risk_pct": 67.9,
+          "count": 28
+        },
+        "cp1404": {
+          "risk_score": 47.44,
+          "high_risk_pct": 42.3,
+          "medium_risk_pct": 57.7,
+          "count": 26
+        },
+        "co5109": {
+          "risk_score": 44.44,
+          "high_risk_pct": 33.3,
+          "medium_risk_pct": 66.7,
+          "count": 18
+        },
+        "to5104": {
+          "risk_score": 39.22,
+          "high_risk_pct": 17.6,
+          "medium_risk_pct": 82.4,
+          "count": 17
+        },
+        "to3052": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 12
+        },
+        "bx2014": {
+          "risk_score": 41.67,
+          "high_risk_pct": 25.0,
+          "medium_risk_pct": 75.0,
+          "count": 8
+        },
+        "lb5202": {
+          "risk_score": 46.15,
+          "high_risk_pct": 38.5,
+          "medium_risk_pct": 61.5,
+          "count": 13
+        },
+        "ma5851": {
+          "risk_score": 50.0,
+          "high_risk_pct": 50.0,
+          "medium_risk_pct": 50.0,
+          "count": 8
+        }
+      },
+      "numeric_weights": {
+        "to3052": 12,
+        "ma5851": 11,
+        "cp1404": 10,
+        "cp5503": 9,
+        "lb5202": 8,
+        "co5109": 7,
+        "eg5310": 6,
+        "lb5113": 5,
+        "bu1007": 4,
+        "lb5205": 3,
+        "bx2014": 2,
+        "to5104": 1
+      },
+      "unique_count": 12
+    },
+    "learn_jcu_issues_3": {
+      "association_strength": 0.15604064029890238,
+      "category_details": {
+        "access": {
+          "risk_score": 43.18,
+          "high_risk_pct": 29.5,
+          "medium_risk_pct": 70.5,
+          "count": 220
+        },
+        "no access": {
+          "risk_score": 49.46,
+          "high_risk_pct": 48.4,
+          "medium_risk_pct": 51.6,
+          "count": 62
+        }
+      },
+      "numeric_weights": {
+        "no access": 2,
+        "access": 1
+      },
+      "unique_count": 2
+    },
+    "lecturer_referral_3": {
+      "association_strength": 0.016791244553692224,
+      "category_details": {
+        "non submission": {
+          "risk_score": 44.64,
+          "high_risk_pct": 33.9,
+          "medium_risk_pct": 66.1,
+          "count": 112
+        },
+        "attendance": {
+          "risk_score": 44.19,
+          "high_risk_pct": 32.6,
+          "medium_risk_pct": 67.4,
+          "count": 89
+        },
+        "concern for welfare": {
+          "risk_score": 44.86,
+          "high_risk_pct": 34.6,
+          "medium_risk_pct": 65.4,
+          "count": 81
+        }
+      },
+      "numeric_weights": {
+        "concern for welfare": 3,
+        "non submission": 2,
+        "attendance": 1
+      },
+      "unique_count": 3
+    },
+    "comments": {
+      "association_strength": 0.6687610890111328,
+      "category_details": {
+        "week 6. student reported working long hours. referred to careers support for managing work\u2013study balance.": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 3
+        },
+        "week 2. student did not attend orientation. contacted via email with essential course info and moodle access guide. no response yet": {
+          "risk_score": 47.47,
+          "high_risk_pct": 42.4,
+          "medium_risk_pct": 57.6,
+          "count": 33
+        },
+        "week 6. student submitted assessment late. extension not requested in advance. advised to submit future requests on time and referred to academic skills team.": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 10
+        },
+        "week 4. student submitted first assessment late. offered academic skills support and advised on extension procedures.": {
+          "risk_score": 41.27,
+          "high_risk_pct": 23.8,
+          "medium_risk_pct": 76.2,
+          "count": 42
+        },
+        "week 7. student disclosed high stress levels and lack of sleep. referred to wellbeing team and reminded of available mental health support.": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 17
+        },
+        "week 3. student enrolled late. missing foundational content from weeks 1\u20132. provided links to recorded lectures and encouraged to attend tutorials for extra support.": {
+          "risk_score": 62.96,
+          "high_risk_pct": 88.9,
+          "medium_risk_pct": 11.1,
+          "count": 9
+        },
+        "week 5. low engagement in tutorials. follow-up email sent with participation expectations and links to recorded sessions.": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 3
+        },
+        "week 3. first contact made. student reported internet access issues at home. it support referral provided.": {
+          "risk_score": 62.5,
+          "high_risk_pct": 87.5,
+          "medium_risk_pct": 12.5,
+          "count": 8
+        },
+        "week 5. student absent from multiple classes. email sent to check in; student replied citing family issues. offered flexibility and reminded of support services.": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 4
+        },
+        "week 7. missed second assessment. student contacted and reported feeling overwhelmed. referred to academic support and encouraged to speak with counsellor.": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 2
+        }
+      },
+      "numeric_weights": {
+        "week 6. student reported working long hours. referred to careers support for managing work\u2013study balance.": 10,
+        "week 6. student submitted assessment late. extension not requested in advance. advised to submit future requests on time and referred to academic skills team.": 9,
+        "week 7. student disclosed high stress levels and lack of sleep. referred to wellbeing team and reminded of available mental health support.": 8,
+        "week 5. low engagement in tutorials. follow-up email sent with participation expectations and links to recorded sessions.": 7,
+        "week 5. student absent from multiple classes. email sent to check in; student replied citing family issues. offered flexibility and reminded of support services.": 6,
+        "week 7. missed second assessment. student contacted and reported feeling overwhelmed. referred to academic support and encouraged to speak with counsellor.": 5,
+        "week 3. student enrolled late. missing foundational content from weeks 1\u20132. provided links to recorded lectures and encouraged to attend tutorials for extra support.": 4,
+        "week 3. first contact made. student reported internet access issues at home. it support referral provided.": 3,
+        "week 2. student did not attend orientation. contacted via email with essential course info and moodle access guide. no response yet": 2,
+        "week 4. student submitted first assessment late. offered academic skills support and advised on extension procedures.": 1
+      },
+      "unique_count": 10
+    },
+    "identified_issues": {
+      "association_strength": 0.6296196637710126,
+      "category_details": {
+        "late enrollment": {
+          "risk_score": 44.28,
+          "high_risk_pct": 32.8,
+          "medium_risk_pct": 67.2,
+          "count": 67
+        },
+        "sickness": {
+          "risk_score": 62.22,
+          "high_risk_pct": 86.7,
+          "medium_risk_pct": 13.3,
+          "count": 15
+        },
+        "death in family": {
+          "risk_score": 62.96,
+          "high_risk_pct": 88.9,
+          "medium_risk_pct": 11.1,
+          "count": 18
+        },
+        "no issue reported": {
+          "risk_score": 37.5,
+          "high_risk_pct": 12.5,
+          "medium_risk_pct": 87.5,
+          "count": 152
+        },
+        "mental health": {
+          "risk_score": 59.26,
+          "high_risk_pct": 77.8,
+          "medium_risk_pct": 22.2,
+          "count": 18
+        },
+        "poor time management": {
+          "risk_score": 66.67,
+          "high_risk_pct": 100.0,
+          "medium_risk_pct": 0.0,
+          "count": 11
+        },
+        "concern for welfare": {
+          "risk_score": 33.33,
+          "high_risk_pct": 0.0,
+          "medium_risk_pct": 100.0,
+          "count": 1
+        }
+      },
+      "numeric_weights": {
+        "poor time management": 7,
+        "death in family": 6,
+        "sickness": 5,
+        "mental health": 4,
+        "late enrollment": 3,
+        "no issue reported": 2,
+        "concern for welfare": 1
+      },
+      "unique_count": 7
+    },
+    "course_group": {
+      "association_strength": 0.12565285977891077,
+      "category_details": {
+        "non-it": {
+          "risk_score": 43.23,
+          "high_risk_pct": 29.7,
+          "medium_risk_pct": 70.3,
+          "count": 202
+        },
+        "it": {
+          "risk_score": 47.92,
+          "high_risk_pct": 43.8,
+          "medium_risk_pct": 56.2,
+          "count": 80
+        }
+      },
+      "numeric_weights": {
+        "it": 2,
+        "non-it": 1
+      },
+      "unique_count": 2
+    }
+  }
+}
